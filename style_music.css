@@ -1,0 +1,81 @@
+*{
+ margin: 0; padding: 0;
+ box-sizing: border-box; 
+ font-family: 'Maven Pro', sans-serif;
+}
+
+h1{
+ text-align: center; 
+ font-size: 1.8rem;
+ color: #444; 
+ padding: 30px 0; 
+}
+
+main{
+ width: 90%; 
+ height: 550px;
+ margin: auto; 
+ border: 1px solid black;
+ display: flex; 
+ justify-content: space-around;
+ align-items: center; 
+ flex-wrap: wrap;
+}
+
+div{
+ width: 30%; height: 160px;
+ /*border: 1px solid grey;*/
+ box-shadow: 2px 2px 5px grey;
+ border-radius: 10px; cursor: pointer;
+ transition: transform 0.5s, font-size 1s, background-color 1.3s ;
+}
+
+main div:hover
+{
+	transform: scale(1.1, 1.1);
+	background-image: none;
+	background-color: rgba(244,134,144,0.3);
+	text-decoration: underline;
+	font-size: 30px;
+	text-align: center;
+}
+
+main div{
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.a{
+  background-image: url('');
+ }
+
+.b{
+background-image: url('');
+
+}
+
+.c{
+background-image: url('');
+}
+
+.d{
+background-image: url('');
+}
+
+.e{
+background-image: url('');
+}
+
+.f{
+background-image: url('');
+}
+.g{
+background-image: url('');
+}
+
+.h{
+background-image: url('');
+}
+
+.i{
+background-image: url('');
+}
